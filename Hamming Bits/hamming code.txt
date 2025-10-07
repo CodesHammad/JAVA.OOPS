@@ -1,0 +1,26 @@
+HAMMING CODE
+1. Hamming Coding Kya Hoti Hai?
+Hamming Code ek error detection aur correction technique hai jo Richard Hamming ne 1950 mein banai thi.
+Iska main purpose hai:
+Data transmission mein agar 1-bit ka error ho jaye to usko detect bhi karna aur correct bhi karna.
+2-bit errors ko detect to kar leti hai, lekin correct nahi karti.
+Ye method digital communication systems mein use hoti hai, jaise:
+Computer memory (RAM ECC)
+Satellite communication
+Modems / Networking
+🧠Simple words mein:
+Jab hum data bhejte hain (0 aur 1 ke form mein), beech mein signal ki wajah se galti ho sakti hai (ek bit 0 se 1 ya 1 se 0 ho jaye).
+Hamming code extra parity bits add karke aisi galti pakar leta hai aur sahi bhi kar deta hai.
+
+
+b. Parity Check
+Parity ka matlab hai — 1s ka count check karna.
+2 tarah ki parity hoti hai:
+
+1. Even Parity:
+→ Total 1's ka count even hona chahiye.
+Agar odd ho to parity bit = 1, warna 0.
+
+2️. Odd Parity:
+→ Total 1's ka count odd hona chahiye.
+Agar even ho to parity bit = 1, warna 0.
